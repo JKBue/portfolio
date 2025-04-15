@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\aanhan\Desktop\Portfolio\CSS\header.css" />
+    <link rel="stylesheet" href="C:\Users\aanhan\Desktop\Portfolio\CSS\contact.css" />
+    <link rel="stylesheet" href="C:\Users\aanhan\Desktop\Portfolio\CSS\transitions.css" />
+
+</head>
+<body>
+    <div class="transition transition-1 is-active"></div>
+    <script src="js/transitions.js"></script>
+
+    <h1>Alexis Nhan</h1>
+    <div class="button_flex-container">
+        <button class="b_flex-items button" onclick = "location.href= 'home.html'">Home</button>
+        <button class="b_flex-items button" onclick = "location.href= 'portfolio.html'">Portfolio</button>
+        <button class="b_flex-items button" onclick = "location.href= 'about.html'">About</button>
+        <button class="b_flex-items button_on" onclick = "location.href= 'contact.html'">Contact</button>
+    </div>
+    
+    <div style="display: flex; justify-content: center;">
+        <!-- Add font awesome icons -->
+        <a class="social" href="https://github.com/JKBue"><img src="social_media\github.webp" alt="Github Page" style="width: 100px;"/>
+        </a>
+
+        <a class="social" href="https://www.linkedin.com/in/alexis-nhan-11245a26b/"><img src="social_media\linkedin.webp" alt="LinkedIn Page" style="width: 100px;"/>
+        </a>
+    </div>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>

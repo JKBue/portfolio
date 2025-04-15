@@ -1,0 +1,11 @@
+/* specifc page styling */
+h2 {
+    color: rgb(126, 144, 167);
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+ul {
+    font-size: 18px;
+}
